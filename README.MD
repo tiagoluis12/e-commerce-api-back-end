@@ -23,7 +23,7 @@
 - [x] setup 404 and errorHandler middleware
 - [x] import 'exress-async-errors' package
 
-#### 404 vs ErrorHandler Middleware
+#### 404 vs ErrorHandler Middleware [x]
 
 #### Morgan Pacakge
 
@@ -35,7 +35,7 @@
 - [x] create schema with name,email, password (all type:String)
 - [x] export mongoose model
 
-#### Validator Package
+#### Validator Package [x]
 
 - [Validator](https://www.npmjs.com/package/validator)
 
@@ -53,9 +53,9 @@
 - [x] import authRoutes as authRouter in the app.js
 - [x] setup app.use('/api/v1/auth', authRouter)
 
-#### Test Routes in Postman
+#### Test Routes in Postman [x]
 
-#### Register Controller
+#### Register Controller [x]
 
 - [x] create user
 - [x] send response with entire user (only while testing)
@@ -114,11 +114,11 @@
 - [x] Get Single User where id matches id param and remove password
 - [x] If no user 404
 
-#### Authenticate User Setup
+#### Authenticate User Setup [x]
 
-#### Auth User Complete
+#### Auth User Complete [x]
 
-#### Authorize Permissions Setup
+#### Authorize Permissions Setup [x]
 
 - [x] hardcode
 
@@ -158,9 +158,9 @@
 - [x] use findOneAndUpdate()
 - [x] create token user, attachCookiesToResponse and send back the tokenUser
 
-#### updateUser with user.save()
+#### updateUser with user.save() [x]
 
-#### Setup and Apply checkPermissions()
+#### Setup and Apply checkPermissions() [x]
 
 #### Product Model
 
@@ -196,9 +196,9 @@
 - [x] import productRoutes as productRouter in the app.js
 - [x] setup app.use('/api/v1/products', productRouter)
 
-#### Product Routes in Postman
+#### Product Routes in Postman [x]
 
-#### Create Product
+#### Create Product [x]
 
 - [x] create user property on req.body and set it equal to userId (req.user)
 - [x] pass req.body into Product.create
@@ -256,33 +256,33 @@
 
 #### Delete Review
 
-- [] get id from req.params
-- [] check if review exists
-- [] if no review, 404
-- [] check permissions (req.user, review.user)
-- [] use await review.remove()
-- [] send back 200
+- [x] get id from req.params
+- [x] check if review exists
+- [x] if no review, 404
+- [x] check permissions (req.user, review.user)
+- [x] use await review.remove()
+- [x] send back 200
 
 #### Update Review
 
-- [] get id from req.params
-- [] get {rating, title comment} from req.body
-- [] check if review exists
-- [] if no review, 404
-- [] check permissions
-- [] set review properties equal to rating, title, comment
-- [] use await review.save()
-- [] send back 200
+- [x] get id from req.params
+- [x] get {rating, title comment} from req.body
+- [x] check if review exists
+- [x] if no review, 404
+- [x] check permissions
+- [x] set review properties equal to rating, title, comment
+- [x] use await review.save()
+- [x] send back 200
 
-#### Populate
+#### Populate [x]
 
-#### Virtuals
+#### Virtuals [x]
 
-#### Get Single Product Reviews
+#### Get Single Product Reviews [x]
 
-#### Remove All Reviews
+#### Remove All Reviews [x]
 
-#### Aggregation Pipeline - Atlas and Code
+#### Aggregation Pipeline - Atlas and Code [x]
 
 #### Order Schema
 
