@@ -23,7 +23,7 @@
 - [x] setup 404 and errorHandler middleware
 - [x] import 'exress-async-errors' package
 
-#### 404 vs ErrorHandler Middleware [x]
+#### 404 vs ErrorHandler Middleware [√]
 
 #### Morgan Pacakge
 
@@ -53,9 +53,9 @@
 - [x] import authRoutes as authRouter in the app.js
 - [x] setup app.use('/api/v1/auth', authRouter)
 
-#### Test Routes in Postman [x]
+#### Test Routes in Postman [√]
 
-#### Register Controller [x]
+#### Register Controller [√]
 
 - [x] create user
 - [x] send response with entire user (only while testing)
@@ -114,11 +114,11 @@
 - [x] Get Single User where id matches id param and remove password
 - [x] If no user 404
 
-#### Authenticate User Setup [x]
+#### Authenticate User Setup [√]
 
-#### Auth User Complete [x]
+#### Auth User Complete [√]
 
-#### Authorize Permissions Setup [x]
+#### Authorize Permissions Setup [√]
 
 - [x] hardcode
 
@@ -158,9 +158,9 @@
 - [x] use findOneAndUpdate()
 - [x] create token user, attachCookiesToResponse and send back the tokenUser
 
-#### updateUser with user.save() [x]
+#### updateUser with user.save() [√]
 
-#### Setup and Apply checkPermissions() [x]
+#### Setup and Apply checkPermissions() [√]
 
 #### Product Model
 
@@ -196,9 +196,9 @@
 - [x] import productRoutes as productRouter in the app.js
 - [x] setup app.use('/api/v1/products', productRouter)
 
-#### Product Routes in Postman [x]
+#### Product Routes in Postman [√]
 
-#### Create Product [x]
+#### Create Product [√]
 
 - [x] create user property on req.body and set it equal to userId (req.user)
 - [x] pass req.body into Product.create
@@ -274,15 +274,15 @@
 - [x] use await review.save()
 - [x] send back 200
 
-#### Populate [x]
+#### Populate [√]
 
-#### Virtuals [x]
+#### Virtuals [√]
 
-#### Get Single Product Reviews [x]
+#### Get Single Product Reviews [√]
 
-#### Remove All Reviews [x]
+#### Remove All Reviews [√]
 
-#### Aggregation Pipeline - Atlas and Code [x]
+#### Aggregation Pipeline - Atlas and Code [√]
 
 #### Order Schema
 
